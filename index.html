@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio website template">
+    <title>Professional Portfolio Template</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Your Name</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonials" class="nav__link">Testimonials</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <svg class="nav__close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <svg class="nav__toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <span class="hero__subtitle">Welcome to my portfolio</span>
+                    <h1 class="hero__title">
+                        Crafting Digital
+                        <span class="hero__title-accent">Experiences</span>
+                    </h1>
+                    <p class="hero__description">
+                        Transforming ideas into elegant, functional solutions that make a difference. 
+                        Specializing in creating exceptional digital products with attention to detail.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="button button--primary">Get In Touch</a>
+                        <a href="#portfolio" class="button button--secondary">View Work</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__blob"></div>
+                    <div class="hero__shape"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Get to know me</span>
+                    <h2 class="section__title">About Me</h2>
+                </div>
+                
+                <div class="about__content">
+                    <div class="about__image">
+                        <div class="about__img-wrapper">
+                            <div class="about__img-placeholder">
+                                <svg viewBox="0 0 200 200" fill="none">
+                                    <circle cx="100" cy="80" r="30" fill="currentColor" opacity="0.1"/>
+                                    <circle cx="100" cy="140" r="50" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about__data">
+                        <p class="about__text">
+                            I'm a passionate professional dedicated to creating innovative solutions that solve real-world problems. 
+                            With years of experience in my field, I bring creativity, technical expertise, and a commitment to excellence 
+                            to every project I undertake.
+                        </p>
+                        <p class="about__text">
+                            My approach combines strategic thinking with hands-on execution, ensuring that every deliverable not only 
+                            meets but exceeds expectations. I believe in continuous learning and staying ahead of industry trends to 
+                            provide cutting-edge solutions.
+                        </p>
+                        
+                        <div class="about__stats">
+                            <div class="about__stat">
+                                <h3 class="about__stat-number">5+</h3>
+                                <span class="about__stat-label">Years Experience</span>
+                            </div>
+                            <div class="about__stat">
+                                <h3 class="about__stat-number">50+</h3>
+                                <span class="about__stat-label">Projects Completed</span>
+                            </div>
+                            <div class="about__stat">
+                                <h3 class="about__stat-number">30+</h3>
+                                <span class="about__stat-label">Happy Clients</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="button button--primary">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="skills__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">What I do best</span>
+                    <h2 class="section__title">Skills & Services</h2>
+                </div>
+
+                <div class="skills__grid">
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">Web Development</h3>
+                        <p class="skill__description">
+                            Building responsive, performant websites using modern technologies and best practices. 
+                            Clean code that scales.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="9" y1="3" x2="9" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">UI/UX Design</h3>
+                        <p class="skill__description">
+                            Creating intuitive, beautiful user interfaces that prioritize user experience and accessibility. 
+                            Design that delights.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>User Research</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>Visual Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">Project Management</h3>
+                        <p class="skill__description">
+                            Leading projects from concept to completion with efficient workflows and clear communication. 
+                            Delivering results on time.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>Agile/Scrum</li>
+                            <li>Team Leadership</li>
+                            <li>Strategy</li>
+                            <li>Delivery</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">Brand Strategy</h3>
+                        <p class="skill__description">
+                            Developing comprehensive brand identities and strategies that resonate with target audiences. 
+                            Building memorable brands.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>Brand Identity</li>
+                            <li>Positioning</li>
+                            <li>Marketing</li>
+                            <li>Storytelling</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">Consulting</h3>
+                        <p class="skill__description">
+                            Providing expert guidance on digital transformation, technology stack selection, and optimization strategies.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>Strategy</li>
+                            <li>Analysis</li>
+                            <li>Optimization</li>
+                            <li>Training</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill__card">
+                        <div class="skill__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill__title">Technical Writing</h3>
+                        <p class="skill__description">
+                            Creating clear, comprehensive documentation and technical content that makes complex topics accessible.
+                        </p>
+                        <ul class="skill__tags">
+                            <li>Documentation</li>
+                            <li>Tutorials</li>
+                            <li>API Docs</li>
+                            <li>Guides</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio section" id="portfolio">
+            <div class="portfolio__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">My recent work</span>
+                    <h2 class="section__title">Portfolio</h2>
+                </div>
+
+                <div class="portfolio__grid">
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <circle cx="200" cy="150" r="60" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">Web Design</span>
+                            <h3 class="portfolio__title">E-Commerce Platform</h3>
+                            <p class="portfolio__description">
+                                A modern e-commerce solution with seamless user experience and powerful admin capabilities.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>UI/UX</span>
+                                <span>Development</span>
+                                <span>Strategy</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <rect x="100" y="75" width="200" height="150" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">Brand Identity</span>
+                            <h3 class="portfolio__title">Corporate Rebrand</h3>
+                            <p class="portfolio__description">
+                                Complete brand refresh including logo, color palette, and comprehensive brand guidelines.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>Branding</span>
+                                <span>Design</span>
+                                <span>Guidelines</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <path d="M100,150 Q200,50 300,150" stroke="currentColor" stroke-width="3" fill="none" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">Mobile App</span>
+                            <h3 class="portfolio__title">Fitness Tracking App</h3>
+                            <p class="portfolio__description">
+                                Cross-platform mobile application helping users achieve their health and fitness goals.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>Mobile</span>
+                                <span>UI Design</span>
+                                <span>UX</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <circle cx="150" cy="120" r="40" fill="currentColor" opacity="0.1"/>
+                                    <circle cx="250" cy="180" r="50" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">Web Application</span>
+                            <h3 class="portfolio__title">Analytics Dashboard</h3>
+                            <p class="portfolio__description">
+                                Data visualization platform providing actionable insights through interactive charts and reports.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>Data Viz</span>
+                                <span>Dashboard</span>
+                                <span>Analytics</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <polygon points="200,80 250,200 150,200" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">Marketing</span>
+                            <h3 class="portfolio__title">Campaign Website</h3>
+                            <p class="portfolio__description">
+                                High-converting landing page designed to drive engagement and maximize conversions.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>Marketing</span>
+                                <span>Conversion</span>
+                                <span>SEO</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__item">
+                        <div class="portfolio__image">
+                            <div class="portfolio__img-placeholder">
+                                <svg viewBox="0 0 400 300" fill="none">
+                                    <rect width="400" height="300" fill="currentColor" opacity="0.05"/>
+                                    <rect x="120" y="100" width="160" height="100" rx="10" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="portfolio__content">
+                            <span class="portfolio__category">SaaS Product</span>
+                            <h3 class="portfolio__title">Project Management Tool</h3>
+                            <p class="portfolio__description">
+                                Collaborative platform streamlining team workflows and project delivery timelines.
+                            </p>
+                            <div class="portfolio__tags">
+                                <span>SaaS</span>
+                                <span>Collaboration</span>
+                                <span>Platform</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="testimonials__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Client feedback</span>
+                    <h2 class="section__title">Testimonials</h2>
+                </div>
+
+                <div class="testimonials__grid">
+                    <article class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial__text">
+                            Working with this professional was an absolute pleasure. The attention to detail and commitment 
+                            to delivering exceptional results exceeded our expectations. Highly recommended!
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-img">
+                                <svg viewBox="0 0 100 100" fill="none">
+                                    <circle cx="50" cy="50" r="50" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__name">Sarah Johnson</h4>
+                                <span class="testimonial__position">CEO, Tech Startup</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial__text">
+                            The project was delivered on time and exceeded all our requirements. The level of professionalism 
+                            and expertise demonstrated throughout the process was impressive.
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-img">
+                                <svg viewBox="0 0 100 100" fill="none">
+                                    <circle cx="50" cy="50" r="50" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__name">Michael Chen</h4>
+                                <span class="testimonial__position">Marketing Director</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial__card">
+                        <div class="testimonial__quote">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial__text">
+                            Outstanding work! The creativity and technical skills brought to our project helped us achieve 
+                            results we didn't think were possible. Would definitely work together again.
+                        </p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-img">
+                                <svg viewBox="0 0 100 100" fill="none">
+                                    <circle cx="50" cy="50" r="50" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__name">Emily Rodriguez</h4>
+                                <span class="testimonial__position">Product Manager</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container">
+                <div class="section__header">
+                    <span class="section__subtitle">Let's connect</span>
+                    <h2 class="section__title">Get In Touch</h2>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__info-title">Let's work together</h3>
+                        <p class="contact__info-description">
+                            Have a project in mind or just want to chat? I'd love to hear from you. 
+                            Fill out the form and I'll get back to you as soon as possible.
+                        </p>
+                        
+                        <div class="contact__details">
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__detail-title">Email</h4>
+                                    <p class="contact__detail-text">your.email@example.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__detail-title">Location</h4>
+                                    <p class="contact__detail-text">Your City, Country</p>
+                                </div>
+                            </div>
+
+                            <div class="contact__detail">
+                                <div class="contact__detail-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__detail-title">Phone</h4>
+                                    <p class="contact__detail-text">+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="email" class="form__label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form__input" placeholder="Project Inquiry" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="6" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="button button--primary button--full">
+                            Send Message
+                            <svg class="button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+
+                        <div class="form__message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <a href="#home" class="footer__logo">Your Name</a>
+                    <p class="footer__description">
+                        Creating exceptional digital experiences with passion and precision.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__group">
+                        <h4 class="footer__title">Quick Links</h4>
+                        <ul class="footer__list">
+                            <li><a href="#about" class="footer__link">About</a></li>
+                            <li><a href="#skills" class="footer__link">Skills</a></li>
+                            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                            <li><a href="#contact" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__group">
+                        <h4 class="footer__title">Services</h4>
+                        <ul class="footer__list">
+                            <li><a href="#skills" class="footer__link">Web Development</a></li>
+                            <li><a href="#skills" class="footer__link">UI/UX Design</a></li>
+                            <li><a href="#skills" class="footer__link">Brand Strategy</a></li>
+                            <li><a href="#skills" class="footer__link">Consulting</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__group">
+                        <h4 class="footer__title">Connect</h4>
+                        <div class="footer__social">
+                            <a href="https://twitter.com" class="footer__social-link" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" class="footer__social-link" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </a>
+                            <a href="https://github.com" class="footer__social-link" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                                </svg>
+                            </a>
+                            <a href="https://dribbble.com" class="footer__social-link" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"/>
+                                    <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"/>
+                                    <path d="M8.56 2.75c4.37 6 6 9.42 6 17.72"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copy">
+                    &copy; <span id="current-year"></span> Your Name. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#home" class="scrolltop" id="scroll-top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
